@@ -37,7 +37,7 @@
  * how to customize the loading of plugin routes.
  */
 	CakePlugin::routes();
-    Router::connect('/people/get_membership/:membership_id', array('controller' => 'people', 'action' => 'get_membership'));
+  Router::connect('/people/get_membership/:membership_id', array('controller' => 'people', 'action' => 'get_membership'));
 	Router::connect('/memberships/list_by_day/:get_date/:membership_id', array('controller' => 'memberships', 'action' => 'list_by_day'));
 	Router::connect('/memberships/list_by_month/:year/:month/:membership_id', array('controller' => 'memberships', 'action' => 'list_by_month'));
 /**
